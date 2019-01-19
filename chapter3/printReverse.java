@@ -8,5 +8,4 @@ public static void printReverse(String word)
 
 	    }
 	    System.out.print(temp);
-
-	}
+}
