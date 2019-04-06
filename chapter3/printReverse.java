@@ -7,8 +7,8 @@ should print the following output: !ereht olleh
 public static void printReverse(String word)
 {
 	    String temp = "";
-
-	    for(int i = word.length() - 1; i >= 0; i--)
+	    int wordLength = word.length();
+	    for(int i = wordLength - 1; i >= 0; i--)
 	    {
 	        temp += word.charAt(i);
 
